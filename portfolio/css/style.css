@@ -1,0 +1,253 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #16003B;
+}
+a {
+  color:#000000;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FF1E56;
+}
+
+.gap{
+  margin: 2%;
+}
+.Copyright{
+  padding: 20%;
+}
+.newpara{
+  color: #ffffff;
+}
+
+
+.darkpara{
+  color: #000000;
+  font-size: 1.3rem;
+  font-weight:10px;
+  font-family: "fantasy";
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.header-text span{
+  color: #2192FF;
+}
+
+.header-textone span{
+  color: #000000;
+}
+
+.header-texttwo span{
+  color: #CFFFFE;
+}
+
+.header-textthree span{
+  color: #FD3A69;
+}
+
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.Align{
+  padding-left: 40%;
+  text-align: justify;
+}
+
+
+
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #0C151E;
+  color: #fff;
+}
+
+.white-section {
+  background-color: ##F4F6F7;
+}
+
+.skill-row{
+  margin: auto; /*or margin: 100px auto 100px auto;*/
+  margin-top: 30px;
+  margin-bottom: 100px;
+  width: 60%;
+  text-align: left;
+  line-height: 2;
+}
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #0C151E;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 80%;
+  right: 30%;
+}
+
+.capone{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cap{
+  width: 25%;
+  float: right;
+  margin-left: 40px;
+}
+
+.myskills{
+  height: auto;
+  max-width: 50%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#about {
+  padding: 50px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
