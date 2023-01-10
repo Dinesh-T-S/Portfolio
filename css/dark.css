@@ -6,11 +6,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
-  color:#fff;
+  color: #fff;
 }
 
 p {
-  color: #fff;
+  color: #ffffff;
 }
 a {
   color:#fff;
@@ -32,7 +32,6 @@ a:hover{
 }
 
 
-
 .darkpara{
   color: #fff;
   font-size: 1.3rem;
@@ -40,6 +39,10 @@ a:hover{
   font-family: "fantasy";
 }
 
+
+.card-text{
+  color: #000;
+}
 /* Headings */
 
 .big-heading {
@@ -84,6 +87,10 @@ a:hover{
   padding: 7% 15%;
 }
 
+.container{
+  padding: 3% 10%;
+}
+
 /* Sections */
 
 .colored-section {
@@ -118,6 +125,8 @@ a:hover{
 .nav-item {
   padding: 0 18px;
 }
+
+
 
 .nav-link {
   font-size: 1.2rem;
@@ -189,33 +198,6 @@ a:hover{
   color: #ff4c68;
 }
 
-/* Testimonial Section */
-
-#testimonials {
-  background-color: #ef8172;
-}
-
-.testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
-
-
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
-
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
 
 /* Pricing Section */
 
@@ -232,17 +214,25 @@ a:hover{
   padding: 3% 2%;
 }
 
-/* CTA Section */
+#projects{
+  padding: 100px;
+}
+
+.project-column {
+  padding: 3% 2%;
+}
+
 
 
 /* Footer Section */
 
 
 .social-icon {
-  margin: 20px 10px;
+  margin: 10px 5px;
+  font-size: 150%;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1028px) and (min-width: 600px){
 
   #title {
     text-align: center;
@@ -251,5 +241,55 @@ a:hover{
   .title-image {
     position: static;
     transform: rotate(0);
+    width:90%;
+
   }
+
+p{
+  font-size: 1.6rem;
+}
+
+.skill-row{
+  width:90%;
+}
+.myskills{
+  max-width: 60%;
+}
+
+#about{
+width: 100%;
+}
+
+.Align{
+  padding-left: 30%;
+}
+
+.card{
+  width:100%;
+}
+
+.social-icon {
+  margin: 10px 5px;
+  font-size: 200%;
+}
+
+.nav-link {
+  font-size: 3rem;
+  font-family: "Montserrat-Light";
+}
+
+.nav{
+  font-size: 2rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  font-size: 2rem;
+}
+
 }
